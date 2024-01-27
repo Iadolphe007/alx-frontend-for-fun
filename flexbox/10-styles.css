@@ -199,7 +199,7 @@
   
   /* Navbar
       ============================= */
-
+  
   .nav {
     display: flex;
     margin: 0;
@@ -214,11 +214,11 @@
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
   }
-
+  
   .nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
   }
-  
+
   .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
@@ -256,7 +256,7 @@
          background: transparent !important;
   }
 
-  .header-container{
+  .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -346,28 +346,24 @@
       ============================= */
   
   .section-hero {
-    background-position: 75% 0;
-    background-repeat: no-repeat;
-    background-size: 90rem auto;
-    background-color: #010101;
     position: relative;
     margin-top: -8.5rem;
-  }
-
-  .hero-homepage {
-    background-position: 75% 0;
-    background-repeat: no-repeat;
-    background-size: 90rem auto;
-    background-color: #010101;
   }
 
   .section-hero .section-body {
     padding: 10rem 4rem;
   }
-  
+
   .section-hero .section-category {
     color: var(--color-white);
     text-transform: uppercase;
+  }
+  
+  .hero-homepage {
+    background-position: 75% 0;
+    background-repeat: no-repeat;
+    background-size: 90rem auto;
+    background-color: #010101;
   }
 
   .section-hero .section-title {
@@ -397,8 +393,8 @@
   }
 
   /* Section ABOUT US
-  ============================= */
-
+    ============================= */
+  
   .section-about-us [class*='col-'] {
     align-self: center;
   }
