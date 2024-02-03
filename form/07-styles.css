@@ -972,13 +972,13 @@ html {
   }
   
   /*** SEARCH FORM ***/
-
+  
   .form-search {
     display: block;
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     position: relative;
   }
-
+  
   .form-search .search-button {
     display: inline-block;
     background: transparent;
@@ -986,14 +986,14 @@ html {
     margin: 0;
     padding: 0;
   }
-
+  
   .search-button .search-icon {
     fill: var(--color-white);
     width: 1.5rem;
     height: 1.5rem;
   }
-
-  .form-search input[type="search"]{
+  
+  .form-search input[type="search"] {
     display: inline-block;
     color: var(--color-white);
     padding-right: 2rem;
@@ -1008,7 +1008,7 @@ html {
     z-index: 3;
     transition: width 0.4s cubic-bezier(0, 0.795, 0, 1);
   }
-
+  
   .form-search input[type="search"]:focus {
     position: relative;
     width: 15rem;
@@ -1018,4 +1018,3 @@ html {
     cursor: text;
     margin: 0 1rem;
   }
-
