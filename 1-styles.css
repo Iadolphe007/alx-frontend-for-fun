@@ -1,0 +1,22 @@
+a {
+    color: rgb(184, 65, 65);
+    text-decoration: none;
+    position: relative;
+    display: flex;
+}
+
+h2 a::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(184, 65, 65);
+    transition: 1s cubic-bezier(0.17, 0.67, 0, 1.01);
+}
+
+h2 a:hover::before {
+    width: 100%;
+    left: 0;
+    background-color: rgb(184, 65, 65);
+}
