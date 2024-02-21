@@ -1,0 +1,17 @@
+/* assigning sass varibale */
+
+$color: #3D3D3D;
+$backgrounColor: #6D6D6D;
+
+body {
+    color: $color;
+    background-color: $backgrounColor;
+}
+
+p {
+    color: $color;
+}
+
+h2 {
+    background-color: $backgrounColor;
+}
